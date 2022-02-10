@@ -30,7 +30,7 @@ gmx mdrun -v -nt 20 -deffnm target-md
 ```
 for REMD:
 
-# calculate T distribution via webpage then replace ref_t with resulted value from webpage. Now you have N remd_N.mdp files which are same but they have different ref_t. such as; remd_0.mdp , remd_1.mdp , remd_N.mdp
+calculate T distribution via webpage then replace ref_t with resulted value from webpage. Now you have N remd_N.mdp files which are same but they have different ref_t. such as; remd_0.mdp , remd_1.mdp , remd_N.mdp
 
 for each remd_N.mdp file, run this script (you should make n(7) remd_.tpr file same as your remd_.mdp files 0, 1, ..., 6): 
 grompp -f remd_n.mdp -c target-npt.gro -p target.top -o remd_n.tpr -maxwarn 1
