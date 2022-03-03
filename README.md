@@ -1,4 +1,4 @@
-# Molcular-Dynamics-Simulations
+# Molcular-Dynamics-Simulation
 ## Introduction
 Molecular dynamics (MD) simulations predict how every atom in a protein or other molecular system will move over time, based on a general model of the physics governing interatomic interactions. These simulations can capture a wide variety of important biomolecular processes, including conformational change, ligand binding, and protein folding, revealing the positions of all the atoms at femtosecond temporal resolution. Importantly, such simulations can also predict how biomolecules will respond—at an atomic level—to perturbations such as mutation, phosphorylation, protonation, or the addition or removal of a ligand.
 ## Running MD by Gromacs 
